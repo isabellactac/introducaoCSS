@@ -1,0 +1,52 @@
+*{ /* reset básico para padronização de todos elementos */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+body{
+    background-color: #262626;
+}
+main{
+    background-image: url("../img/wall.jpeg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position:left top;
+    background-size: 130px 90px;
+    height: 100vh;
+
+}
+
+table{
+    width: 100%;
+    height: 300px;
+}
+
+section{
+    width: 50%;
+    color: blue;
+}
+
+#segundaSection{
+    color: green;
+} /* id é mais importante que um class, por ser mais específico */
+
+.darkColor{
+    color: darkgreen
+}
+
+h1{
+    color: #ffffff;
+    opacity: 0.9;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+h2{
+    font-size: 18px;
+}
+
